@@ -37,25 +37,25 @@ Replace `yourusername` with your actual GitHub username.
 Creating a virtual environment is a good practice to manage dependencies for your projects. Run the following command:
 
 ```sh
-python -m venv myenv
+python -m venv tutorial
 ```
 
 Activate the virtual environment:
 
 - On Windows:
   ```sh
-  myenv\Scripts\activate
+  tutorial\Scripts\activate
   ```
 - On macOS/Linux:
   ```sh
-  source myenv/bin/activate
+  source tutorial/bin/activate
   ```
 
 To deactivate the virtual environment, run:
 
 - On Windows:
   ```sh
-  myenv\Scripts\deactivate.bat
+  tutorial\Scripts\deactivate.bat
   ```
 - On macOS/Linux:
   ```sh
